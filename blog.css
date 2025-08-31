@@ -119,9 +119,32 @@ span{
     color: rgb(107, 32, 13);
 }
 
+.blog-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
 .blog-content a{
     font-size: 4rem;
     margin-bottom: 1rem;
+    align-self: center;
     font-weight: 700;
     color: rgb(92, 92, 32);
 }
+
+ .the-blog{
+    margin-bottom: 4rem;
+    align-items: center;
+    align-content: center;
+    width: 700px;
+ }
+
+ .foto{
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 20px;
+    object-fit: cover;
+ }
