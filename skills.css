@@ -34,3 +34,15 @@ header{
     align-items: center;
     z-index: 100;
 }
+
+ .logo{
+    font-size: 3rem;
+    color: rgb(107, 32, 13);
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+}
