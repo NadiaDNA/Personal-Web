@@ -96,12 +96,24 @@ nav a.active{
 }
 
 .skil {
-    width: 100%; 
+    width: 70%; 
     height: 600px;
-    border: none;"
+    border: none;
 }
 
 .pdf-container {
     margin-top: 100px;
-    text-align: center;
+    background-color: inherit; 
+    display: flex;
+    margin-top: 200px;
+    justify-content: center; 
+    background-color: whitesmoke;
+    padding: 2rem;
+}
+
+.pdf-container iframe {
+  width: 70%;
+  height: 600px;
+  border: none;
+  background-color: transparent;
 }
