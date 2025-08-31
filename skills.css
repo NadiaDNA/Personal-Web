@@ -95,3 +95,13 @@ nav a.active{
     }
 }
 
+.skil {
+    width: 100%; 
+    height: 600px;
+    border: none;"
+}
+
+.pdf-container {
+    margin-top: 100px;
+    text-align: center;
+}
