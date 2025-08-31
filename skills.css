@@ -46,3 +46,52 @@ header{
 .logo:hover{
     transform: scale(1.1);
 }
+
+nav a{
+    font-size: 1.8rem;
+    color: rgb(92, 92, 32);
+    margin-left: 4rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+
+nav a:hover,
+nav a.active{
+    color: rgb(107, 32, 13);
+    border-bottom: 3px solid rgb(107, 32, 13);
+}
+
+@media(max-width:995px){
+    nav{
+        position: absolute;
+        display: none;
+        top: 0;
+        right: 0;
+        width: 40%;
+        border-left: 3px solid rgb(107, 32, 13);
+        border-bottom: 3px solid rgb(107, 32, 13);
+        border-bottom-left-radius: 2rem;
+        padding: 1rem solid;
+        background-color: whitesmoke;
+        border-top: 0.1rem solid whitesmoke;
+    }
+
+    nav.active{
+        display: block;
+    }
+
+    nav a{
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+    }
+
+    nav a:hover,
+    nav a.active{
+        padding: 1rem;
+        border-radius: 0.5rem;
+        border-bottom: 0.5rem solid rgb(107, 32, 13);
+    }
+}
+
