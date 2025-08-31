@@ -168,8 +168,7 @@ span{
 
 .typing-text span::after{
     content: "";
-    background-color: whitesmoke
-    position: absolute;
+    background-color: whitesmoke absolute;
     width: calc(100% + 8px);
     height: 100%;
     border-left: 3px solid whitesmoke;
